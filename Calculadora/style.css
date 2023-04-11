@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Flex:opsz@8..144&display=swap%27');
+*{
+    font-family: Poppins;
+    margin: 0;
+}
+
+/* body{
+    max-width: 1000px;
+    margin: auto;
+} */
+.navegation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 20%;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 20px;
+
+}
+
+li a{
+    text-decoration: none;
+    color: #000000;
+}
+
+button{
+    background-color: #5093F9;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+input{
+    width: auto;
+}
+
+.fale-conosco-text{
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.button-link{
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    background-color: #5093F9;
+    height: 25px;
+    padding: 5px;
+}
+
+.logo-Inno{
+    height: 50px;
+}
+
+hr{
+    background-color: #5093F9;
+    height: 2px;
+}
+
+.container{
+    height: auto;
+    display: flex;
+    gap:10px;
+    padding: 40px 20%;
+}
+
+.caixa{
+
+    justify-content: center;
+    align-items: start;
+    width: 70%;
+}
+
+.caixa-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 30%;
+
+}
+
+.h3_title{
+    font-size: 25px;
+    color: #5093F9;
+    font-weight: bold;
+}
+
+.img-vector{
+    height: 55%;
+}
+
+.footer{
+    margin-top: 5%;
+    padding: 3% 20%;
+    background-color: #232323;
+    height: auto;
+}
+
+.logo-footer{
+    margin-bottom: 3%;
+}
+
+.text-footer{
+    color: #ffffff;
+}
+
+.div-texto {
+    font-size: 100%;
+    width: 75%;
+}
+
+.simulacao-css{
+    height: auto;
+    width: 100%;
+
+}
